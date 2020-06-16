@@ -9,8 +9,15 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="icon" href=" https://github.com/dreamwhigh/Docsify-Notes/raw/master/docs/pics/weblogo.png">
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
- 
+	<!-- Font Awesome ico -->
+	<script src="https://kit.fontawesome.com/c4fad3abee.js" crossorigin="anonymous"></script>
     <style type="text/css">
+	
+	<!-- 删除markdown超链接下划线 -->
+	a{text-decoration: none}
+	<!-- 改变超链接点击前后字体颜色 -->
+	a:link {color: #FFB6C1}
+	a:visited{color: #00BFFF}
 
     /* 隐藏头部的目录 */
     #main>ul:nth-child(1) {
@@ -364,8 +371,32 @@
             // Headline depth, 1 - 6
             depth: 6
         },//增加搜索框
+		
+		//flexible-alerts
+		'flexible-alerts': {
+			note: {
+				label: "Note"
+			},
+			tip: {
+				label: "Tipp"
+			},
+			warning: {
+				label: "Warnung"
+			},
+			danger: {
+				label: "Achtung"
+			}
+			// ** additional type configuration **
+			//comment: {
+			//label: "Comment",
+			//icon: "fas fa-comment",
+			//className: "info"
+			//}
+		}
+		
     }
   </script>
+
     <script src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/docsify.min.js"></script>
     <!-- <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script> -->
     <!-- 上面的基本不可用，无法搜索 -->
@@ -381,6 +412,8 @@
     <!-- <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script> -->
     <!-- <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script> -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	<!--Flexible Alart -->
+	<script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
     <script>
     const gitalk = new Gitalk({
         clientID: 'c6c02367e36ca6e2bb2d',

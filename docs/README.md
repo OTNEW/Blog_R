@@ -1,6 +1,17 @@
-## Contact
+<!-- 去除页面超链接下划线 -->
+<style>
+	a{text-decoration: none}
+	<!-- 设置链接点击前后一致 -->
+	a:link {color: #34495E}
+	a:visited{color: #34495E}
+</style>
 
-<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=rpuXlp_Xn5aamO7f34DNwcM" style="text-decoration:none;">E-mail</a>: 598191846 AT qq.com
+<i class="fa fa-grin-squint-tears fa-4x"><font size=6>  **Stay Hungry, Stay Foolish**</font></i>
 
-[Github](<https://github.com/OTNEW>): github.com/OTNEW
+# R
 
+
+***
+
+<!-- Font Awesome icos -->
+<script src="https://kit.fontawesome.com/c4fad3abee.js" crossorigin="anonymous"></script>
